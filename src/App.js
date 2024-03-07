@@ -7,7 +7,6 @@ import {
   Routes,
 } from "react-router-dom";
 import News from './components/News';
-import LoadingBar from 'react-top-loading-bar'
 import GuestPostForm from './components/GuestPostForm';
 import Footer from './components/Footer';
 
