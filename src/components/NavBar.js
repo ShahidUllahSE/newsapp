@@ -70,6 +70,13 @@ const NavBar=()=> {
                   Technology
                 </a>
               </li>
+
+              <li className="nav-item">
+                <a className="nav-link" href="/guest">
+                  Notifications
+                </a>
+              </li>
+
             </ul>
           </div>
         </nav>
