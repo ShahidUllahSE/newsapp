@@ -11,3 +11,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#cardtitle{
+  /* color: rgb(3, 3, 148); */
+  color: white;
+}
+.card-body{
+  background-color: rgb(100, 100, 100);
+}
+.card-text{
+  color: wheat;
+}
+#form1{
+  background-color: rgb(100, 100, 100);
+
+}
+#heading{
+  color: rgb(3, 3, 90);
+}

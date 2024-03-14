@@ -5,8 +5,8 @@ const NavBar=()=> {
   
     return (
       <div>
-        <nav className="fixed-top navbar navbar-expand-lg navbar-light bg-light ">
-          <a className="navbar-brand" href="/">
+<nav className="fixed-top navbar navbar-expand-lg navbar-dark bg-dark">
+            <a className="navbar-brand bg-black" href="/">
             Latest News
           </a>
           <button
@@ -21,7 +21,7 @@ const NavBar=()=> {
             <span className="navbar-toggler-icon"></span>
           </button>
 
-          <div className="collapse navbar-collapse" id="navbarSupportedContent">
+          <div className="collapse navbar-collapse text-white" id="navbarSupportedContent">
             <ul className="navbar-nav mr-auto">
               <li className="nav-item active">
                 <a className="nav-link" href="/">
@@ -29,50 +29,56 @@ const NavBar=()=> {
                 </a>
               </li>
 
-              <li className="nav-item">
-                <a className="nav-link" href="/business">
+              <li className="nav-item text-white">
+                <a className="nav-link text-white" href="/business">
                   Business
                 </a>
               </li>
 
               <li className="nav-item">
-                <a className="nav-link" href="/Entertainment">
+                <a className="nav-link text-white" href="/Entertainment">
                   Entertainment
                 </a>
               </li>
 
               <li className="nav-item">
-                <a className="nav-link" href="/general">
+                <a className="nav-link text-white" href="/general">
                   General
                 </a>
               </li>
 
               <li className="nav-item">
-                <a className="nav-link" href="/health">
+                <a className="nav-link text-white" href="/health">
                   Health
                 </a>
               </li>
 
               <li className="nav-item">
-                <a className="nav-link" href="/science">
+                <a className="nav-link text-white" href="/science">
                   Science
                 </a>
               </li>
 
               <li className="nav-item">
-                <a className="nav-link" href="/sports">
+                <a className="nav-link text-white" href="/sports">
                   Sports
                 </a>
               </li>
 
               <li className="nav-item">
-                <a className="nav-link" href="/technology">
+                <a className="nav-link text-white" href="/technology">
                   Technology
                 </a>
               </li>
 
               <li className="nav-item">
-                <a className="nav-link" href="/guest">
+                <a className="nav-link text-white" href="/contact">
+                  Contact us
+                </a>
+              </li>
+
+              <li className="nav-item">
+                <a className="nav-link text-white" href="/guest">
                   Notifications
                 </a>
               </li>
